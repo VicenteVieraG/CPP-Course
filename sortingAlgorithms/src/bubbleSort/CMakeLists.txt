@@ -1,0 +1,3 @@
+set(LIBRARY_SOURCES bubbleSort.cpp)
+
+add_library(${LIBRARY_BUBBLE} STATIC ${LIBRARY_SOURCES})

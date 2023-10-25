@@ -1,0 +1,6 @@
+set(EXECUTABLE_SOURCES main.cpp)
+
+add_executable(${CMAKE_PROJECT_NAME} ${EXECUTABLE_SOURCES})
+
+target_link_libraries(${CMAKE_PROJECT_NAME} 
+    PRIVATE ${LIBRARY_BUBBLE})
