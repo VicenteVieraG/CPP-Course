@@ -1,4 +1,5 @@
 #include <iostream>
+#include <utils.h>
 #include <bubbleSort.h>
 
 namespace BUBBLE{
@@ -27,7 +28,7 @@ namespace BUBBLE{
             for(int j=0; j < N-i-1; j++){
                 // > to order lowest to highest, > highest to lowest
                 if(arr[j] > arr[j + 1]){
-                    swap(arr[j], arr[j + 1]);
+                    UTILS::swap(arr[j], arr[j + 1]);
                     swapped = true;
                 }
             }

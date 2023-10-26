@@ -1,0 +1,1 @@
+add_library(${LIBRARY_UTILS} STATIC utils.cpp)
