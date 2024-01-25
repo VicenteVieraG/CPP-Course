@@ -9,13 +9,13 @@ namespace UTILS {
         B = temp;
     }
 
-    void printArr(int* arr, int N){
-        std::cout<<"[";
-        for(int i=0; i < N - 1; i++){
-            std::cout<<arr[i]<<", ";
-        }
-        std::cout<<arr[N-1]<<"]"<<std::endl;
-    }
+    // void printArr(int* arr, int N){
+    //     std::cout<<"[";
+    //     for(int i=0; i < N - 1; i++){
+    //         std::cout<<arr[i]<<", ";
+    //     }
+    //     std::cout<<arr[N-1]<<"]"<<std::endl;
+    // }
 
     int arrSize(int* arr){
         return sizeof(arr) / sizeof(arr[0]);
